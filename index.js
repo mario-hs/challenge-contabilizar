@@ -52,7 +52,7 @@ const atualizarPaineis = (cpf) => {
             tbody.appendChild(tr)
         }
     }
-
+    
     document.getElementById('cpf').value = null
     document.getElementById('valor').value = null
     atualizarPainel(document.getElementById('saldosPorConta'), recuperarSaldosPorConta(lancamentos))
